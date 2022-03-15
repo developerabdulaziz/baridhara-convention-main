@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@400;500&family=Rubik&family=Signika+Negative&family=Supermercado+One&family=ZCOOL+QingKe+HuangYou&display=swap');
+body {
+    font-family: 'Merriweather', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Signika Negative', sans-serif;
+font-family: 'Supermercado One', cursive;
+font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+/* navbar part -------------------------- */
+.navbar {
+    background-color: rgb(216, 50, 119);
+}
+/*-------- Banner---------------  */
+img {
+    height: 75vh;
+    object-fit: cover;
+}
+/* tost part  */
+.fa-gift {
+    color: rgb(216, 50, 119);
+}
+
+.my-toast {
+    width: 16.4rem;
+}
+
+/* toast end  */
+/*----------- package part ------------- */
+.icon {
+    color: #e3e2eb;
+    background-color: rgba(105, 25, 63, 0.452);
+    height: 20px;
+    width: 20px;
+    margin-right: .4rem;
+}
+.package-btn {
+    background-color: #FEF5FA;
+    color: #3F87F5;
+}
+
+.highlighted-card {
+    background-color: rgb(216, 50, 119);
+    border-radius: 2rem;
+    margin-top: -37px;
+    height: 30rem;
+    padding: 0px;
+    box-shadow: 0px 30px 20px 0px rgba(216, 50, 119, 0.555);
+}
+.highlighted-card li {
+    background-color: rgb(216, 50, 119);
+}
+.hot-icon {
+    top: -3rem;
+    z-index: 1;
+    right: 36px;
+    background-color: black;
+}
+
+
+/* -----------Footer part --------------------- */
+.app-icon img {
+    width: 135px;
+    height: 40px;
+}
+.social-icon i {
+    transition: transform 2s;
+}
+.social-icon :hover i {
+    transform: rotate(360deg);
+}
+/* common button style ------------------------- */
+.fs-1 {
+    color: rgb(216, 50, 119)
+}
+.common-button {
+    background-color: rgb(216, 50, 119);
+}
+
+.common-button:hover, .card button:hover, .nav-links a:hover {
+    padding: 5px;
+    background-color: rgb(114, 13, 75);
+
+}
+/* Frequently Ask question  */
+.faq-button:focus {
+    border-color: rgb(216, 50, 119);
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    color: rgb(216, 50, 119);
+    background-color: rgba(216, 50, 119, 0.233);
+}
+.accordion-button:focus {
+    border-color: rgb(216, 50, 119);
+}
+/* review part  */
+.client-img {
+    height: 100px;
+    width: 100px;
+}
+.fa-star {
+    color: goldenrod;
+}
